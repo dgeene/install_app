@@ -5,6 +5,7 @@ Installs an .apk or .ipa file onto a phone.
 I have a build of a mobile app and many phones connected to my computer. I want to point an app file to a phone and have it installed without remembering which command flags to use.
 
 ## Install
+Install in the user's ~/bin folder with pipx
 
 ## TODO
 - Handle multiple phone connections
