@@ -22,7 +22,10 @@ pipx install git+https://github.com/dgeene/install_app.git
 And you're done
 
 ## Run
+
+```bash
 install-app ~/app-builds/com.dave.myapp-v8.1.3-staging-release.apk
+```
 
 ## TODO
 - Handle multiple phone connections
