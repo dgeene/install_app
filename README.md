@@ -28,7 +28,6 @@ install-app ~/app-builds/com.dave.myapp-v8.1.3-staging-release.apk
 - output device names in addition to uid
 - handle uninstalling the app first
 - progress bar for installs
-- add as command line util https://python-packaging.readthedocs.io/en/latest/command-line-scripts.html#the-console-scripts-entry-point or https://python-poetry.org/docs/pyproject/#scripts
 
 
 
