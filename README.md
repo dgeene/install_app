@@ -2,7 +2,16 @@
 Installs an .apk or .ipa file onto a phone.
 
 ## Problem Statement
-I have a build of a mobile app and many phones connected to my computer. I want to point an app file to a phone and have it installed without remembering which command flags to use.
+I have a build of a mobile app and many phones connected to my computer. I want to point an app file to a phone and have it installed without remembering which command flags to use for the platform specific utilities.
+
+## Requirements
+`install-app` uses `ios-deploy` and `adb` to install app files onto a phone.
+
+These utilities must be installed and available in PATH.
+
+ios-deploy: https://github.com/ios-control/ios-deploy
+
+adb: https://developer.android.com/tools/adb
 
 ## Install
 Installing using pipx
