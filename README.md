@@ -16,15 +16,10 @@ adb: https://developer.android.com/tools/adb
 ## Install
 Installing using pipx
 
-First build the package in this directory:
 ```bash
-python setup.py sdist
+pipx install git+https://github.com/dgeene/install_app.git
 ```
-
-Then run pipx install on it
-```bash
-pipx install install_app/dist/install_app-1.0.0.tar.gz
-```
+And you're done
 
 ## Run
 install-app ~/app-builds/com.dave.myapp-v8.1.3-staging-release.apk
